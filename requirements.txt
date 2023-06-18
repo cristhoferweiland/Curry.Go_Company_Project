@@ -1,6 +1,6 @@
 streamlit==1.15.1
 plotly==5.10.0
-pandas==1.4.3
+pandas==1.5.2
 numpy==1.23.1
 folium==0.13.0
 matplotlib==3.5.3
