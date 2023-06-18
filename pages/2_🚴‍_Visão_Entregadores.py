@@ -5,6 +5,7 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 from haversine import haversine
+from datetime import datetime
 import folium
 import streamlit as st
 from PIL import Image
@@ -103,8 +104,10 @@ st.sidebar.markdown('''---''')
 st.sidebar.markdown('## Filtros:')
 
 date_slider = st.sidebar.slider(
-'Selecione uma data limite:', value=pd.datetime(2022, 4, 13), min_value=pd.datetime(2022, 2, 11),
-max_value=pd.datetime(2022, 4, 6),
+'Selecione uma data limite:', 
+    value = datetime.strptime(pd.to_datetime('2022/4/13').strftime('%Y-%m-%d'), '%Y-%m-%d'),
+    min_value = datetime.strptime(pd.to_datetime('2022/2/11').strftime('%Y-%m-%d'), '%Y-%m-%d'),
+    max_value = datetime.strptime(pd.to_datetime('2022/4/6').strftime('%Y-%m-%d'), '%Y-%m-%d'),
 format='DD-MM-YYYY')
 
 #st.sidebar.markdown('''---''')
