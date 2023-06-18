@@ -6,7 +6,7 @@ import numpy as np
 import plotly.graph_objects as go
 import plotly.express as px
 from haversine import haversine
-import datetime from datetime
+from datetime import datetime
 import folium
 import streamlit as st
 from PIL import Image
