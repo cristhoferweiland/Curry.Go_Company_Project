@@ -1,3 +1,5 @@
+![](/img/banner_curry_go.jpg)
+
 # 1. Problema de Negócio
 A Curry.Go é uma empresa de tecnologia que criou um aplicativo que conecta restaurantes, entregadores e pessoas em um marketplace.
 
@@ -57,7 +59,7 @@ O painel estratégico foi desenvolvido utilizando métricas que refletem as trê
   2. Avaliação do melhor e do pior veículo.
   3. Avaliação média por entregador.
   4. Avaliação média por condições de trânsito.
-  5. Avaliação méia por condições climáticas.
+  5. Avaliação média por condições climáticas.
   6. Tempo médio do entregador mais rápido por cidade.
   7. Tempo médio do entregador mais lento por cidade.
 ### Visão do crescimento dos restaurantes
